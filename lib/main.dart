@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/counter%20screen.dart';
 import 'package:flutter_app/home%20screen.dart';
 import 'package:flutter_app/login%20screen.dart';
 import 'package:flutter_app/messenger%20screen.dart';
@@ -14,7 +15,7 @@ class Myapp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      home: UserSCreen(),
+      home: CounterScreen(),
     );
   }
 
